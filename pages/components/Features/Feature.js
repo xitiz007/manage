@@ -1,6 +1,6 @@
 import React from "react";
 
-const Feature = ({index, title, description}) => {
+const Feature = ({index= "", title, description}) => {
   return (
     <div className="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-6">
       {/* heading */}
